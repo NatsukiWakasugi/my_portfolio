@@ -2,7 +2,7 @@ import * as React from 'react';
 
 const Profile: React.VFC = () => {
   return (
-    <div>
+    <div style={{ marginTop: '3rem' }}>
       <h1>Skills</h1>
       アイコン
       <br />

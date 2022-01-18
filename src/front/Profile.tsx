@@ -1,12 +1,20 @@
 import * as React from 'react';
+import { Container } from '@mui/material';
 
 const Profile: React.VFC = () => {
   return (
-    <div>
-      <h1>Profile</h1>
-      name: 大山奈津妃
-      <br />
-      githubリンク
+    <div style={{ marginTop: '3rem' }}>
+      <Container>
+        <div
+          style={{
+            width: '20rem',
+            height: '20rem',
+            backgroundColor: '#C1C1C1',
+          }}
+        />
+        <h1>Profile</h1>
+        name: 大山奈津妃 githubリンク
+      </Container>
     </div>
   );
 };

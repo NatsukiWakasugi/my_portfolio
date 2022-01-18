@@ -10,7 +10,15 @@ const Contact: React.VFC = () => {
   };
 
   return (
-    <div style={{ width: '30rem' }}>
+    <div
+      style={{
+        width: '30rem',
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        zIndex: 100,
+      }}
+    >
       <Tabs
         textColor="secondary"
         indicatorColor="secondary"
