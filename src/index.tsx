@@ -4,8 +4,8 @@ import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './front/Home';
 import reportWebVitals from './reportWebVitals';
-import Skill from './front/Skill';
 import Profile from './front/Profile';
+import Skill from './front/Skill';
 import Contact from './front/Contact';
 import Header from './front/Header';
 
