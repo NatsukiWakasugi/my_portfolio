@@ -14,6 +14,7 @@ const Home: React.VFC = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        opacity: 0.8,
       }}
     >
       <Box
@@ -54,7 +55,16 @@ const Home: React.VFC = () => {
           opacity: 0.8,
         }}
       />
-      <Typography variant="h2" sx={{ color: '#555555', zIndex: 50 }}>
+      <Typography
+        variant="h2"
+        sx={{
+          color: '#434343',
+          zIndex: 50,
+          padding: '0 4rem 0',
+          borderBottom: '0.2rem solid;',
+          borderBottomColor: 'rgba(255, 255, 255, 0.75)',
+        }}
+      >
         Welcome to my Portfolio
       </Typography>
     </Box>
