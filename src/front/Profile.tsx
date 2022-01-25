@@ -63,17 +63,13 @@ const Profile: React.VFC = () => {
                 <div>
                   <Stack spacing={3.5} justifyContent="space-evenly">
                     <div style={style.item}>
-                      <Typography
-                        variant="subtitle1"
-                        pl="2rem"
-                        sx={{ fontSize: '1.2rem' }}
-                      >
+                      <Typography variant="h6" pl="2rem">
                         ・Natsuki <br />
                         ・システムエンジニア
                         <br />
-                        ・福井出身
+                        ・福井出身、千葉在住
                         <br />
-                        ・千葉在住
+                        ・スマブラを嗜んでます。
                       </Typography>
                     </div>
                   </Stack>
