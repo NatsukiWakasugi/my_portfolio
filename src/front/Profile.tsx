@@ -55,7 +55,7 @@ const Profile: React.VFC = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <GitHubIcon />
+                    <GitHubIcon sx={{ width: '2.5rem', height: '2.5rem' }} />
                   </a>
                 </Stack>
               </Grid>
