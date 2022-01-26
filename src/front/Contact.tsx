@@ -17,12 +17,12 @@ const Contact: React.VFC = () => {
             backgroundColor: 'rgba(190, 190, 190, 0.75)',
           }}
         >
-          hoge
+          <div style={{ padding: '3rem' }}></div>
           <Box
             sx={{
               position: 'absolute',
-              width: '50%',
-              height: `calc(${height}px / 2)`,
+              width: '45%',
+              height: '60%',
               left: '-6rem',
               top: '-4rem',
               backgroundColor: 'rgba(179, 175, 180, 0.75)',

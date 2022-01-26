@@ -63,13 +63,25 @@ const Profile: React.VFC = () => {
                 <div>
                   <Stack spacing={3.5} justifyContent="space-evenly">
                     <div style={style.item}>
-                      <Typography variant="h6" pl="2rem">
-                        ・Natsuki <br />
-                        ・システムエンジニア
+                      <Typography
+                        variant="h6"
+                        pl="2rem"
+                        sx={{
+                          color: '#555555',
+                          lineHeight: 2,
+                          fontFamily: 'Monospace',
+                        }}
+                      >
+                        Name: Natsuki <br />
+                        Occupation: システムエンジニア
                         <br />
-                        ・福井出身、千葉在住
+                        Gender: Female
                         <br />
-                        ・スマブラを嗜んでます。
+                        Address: 千葉在住、福井出身
+                        <br />
+                        Personality: ISTP-A / ISTP-T
+                        <br />
+                        Hobby: スマブラ、コスメ、K-POP
                       </Typography>
                     </div>
                   </Stack>
