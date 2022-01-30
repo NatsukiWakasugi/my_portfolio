@@ -62,7 +62,7 @@ const Home: React.VFC = () => {
           zIndex: 50,
           padding: '0 4rem 0',
           borderBottom: '0.2rem solid;',
-          borderBottomColor: 'rgba(255, 255, 255, 0.75)',
+          borderBottomColor: 'rgba(255, 255, 255)',
         }}
       >
         Welcome to my Portfolio
