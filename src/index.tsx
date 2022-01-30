@@ -10,8 +10,8 @@ import Contact from './front/Contact';
 import Header from './front/Header';
 
 ReactDOM.render(
-  <>
-    <BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,7 +20,7 @@ ReactDOM.render(
         <Route path="contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
-  </>,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
