@@ -132,16 +132,4 @@ const Profile: React.VFC = () => {
   );
 };
 
-//             {/*<a*/}
-//             {/*  href="https://github.com/NatsukiWakasugi"*/}
-//             {/*  target="_blank"*/}
-//             {/*  rel="noopener noreferrer"*/}
-//             {/*>*/}
-//             {/*  <Box sx={{ ...style.circle }}>*/}
-//             {/*    <Typography variant="h6">*/}
-//             {/*      <GitHubIcon />*/}
-//             {/*    </Typography>*/}
-//             {/*  </Box>*/}
-//             {/*</a>*/}
-
 export default Profile;
